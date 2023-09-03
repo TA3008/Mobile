@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'banhang1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C0B04607D72474697F05E4AE47E65BA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FFD2568870134AFA815617D1921D6F2F }}
           package: .
