@@ -10,13 +10,6 @@ import ProductDetail from './screens/ProductDetail';
 import Search from './screens/Search';
 import Cart from './screens/Cart';
 
-const express = require('express');
-const app = express();
-var port = process.env.PORT || 3000;
-app.listen(port, () => console.log('Server is running on port' + port))
-const Stack = createStackNavigator();
-
-const Stack = createStackNavigator();
 
 const App = () => {
   return (
